@@ -10,7 +10,7 @@ module.exports = function(options, replace) {
   // validate parameter: replace
 
   if(typeof replace !== 'undefined'){
-    replace.itens = typeof replace.itens === 'undefined' ? replace.itens : '';
+    replace.itens = typeof replace.itens !== 'undefined' ? replace.itens : '';
   }
 
   // =================
